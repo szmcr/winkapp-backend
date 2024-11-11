@@ -34,7 +34,7 @@ export const handler = async (event) => {
 
         return {
             statusCode: 200,
-            body: JSON.stringify({ movement }),
+            body: JSON.stringify(movement),
         };
     } catch (error) {
         return {
